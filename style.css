@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100dvw;
+    height: 100vh;
+}
+
+.container{
+    margin: 20px;
+    
+    
+}
+
+.blackets{
+    border: 1px solid rgb(80, 79, 32);
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+}
+.percentage{
+    border: 1px solid rgb(148, 147, 109);
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+}
+.number{
+    border: 1px solid greenyellow;
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+    
+}
+.number:hover{
+    background-color: green;
+}
+.operator{
+    border: 1px solid rgb(111, 111, 163);
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+}
+.operator:hover{
+    background-color: rgb(58, 58, 201);
+}
+.decimal{
+    border: 2px solid rgb(219, 143, 188);
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+}
+.decimal:hover{
+    background-color: goldenrod;
+}
+.equal{
+    border: 2px solid rgb(219, 143, 188);
+    width: 60px;
+    border-radius: 2px;
+    font-size: 40px;
+}
+.equal:hover{
+    background-color: purple;
+}
+#clear-btn{
+    border: 2px solid rgb(219, 143, 188);
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    width: 124.5px;
+    font-size: 40px;
+    
+}
+#clear-btn:hover{
+    background-color: violet;
+}
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#screen{
+    width: 200px;
+    border: 2px solid rgb(219, 143, 188);
+    height: 75px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.previous{
+    font-size: 20px;
+}
+.current{
+    font-size: 30px;
+}
